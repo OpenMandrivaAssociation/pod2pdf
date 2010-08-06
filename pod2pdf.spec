@@ -8,6 +8,7 @@ Url:        http://perl.jonallen.info/projects/pod2pdf
 Source:     http://perl.jonallen.info/attachment/24/pod2pdf-%{version}.tar.gz
 Requires: perl(PDF::API2)
 BuildRequires: perl(PDF::API2)
+BuildRequires: perl(Getopt::ArgvFile)
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
