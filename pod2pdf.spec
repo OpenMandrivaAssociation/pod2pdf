@@ -1,13 +1,14 @@
 Name:       pod2pdf
 Version:    0.42
-Release:    %mkrel 1
+Release:    %mkrel 2
 License:    Artistic
 Group:      Publishing
 Summary:    Converts Pod to PDF format
 Url:        http://perl.jonallen.info/projects/pod2pdf
 Source:     http://perl.jonallen.info/attachment/24/pod2pdf-%{version}.tar.gz
-BuildArch: noarch
+Requires: perl(PDF::API2)
 BuildRequires: perl(PDF::API2)
+BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description
