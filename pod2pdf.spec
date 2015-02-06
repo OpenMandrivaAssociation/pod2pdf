@@ -1,6 +1,6 @@
 Name:       pod2pdf
 Version:    0.42
-Release:    3
+Release:    4
 License:    Artistic
 Group:      Publishing
 Summary:    Converts Pod to PDF format
