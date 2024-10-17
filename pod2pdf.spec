@@ -4,7 +4,7 @@ Release:    4
 License:    Artistic
 Group:      Publishing
 Summary:    Converts Pod to PDF format
-Url:        http://perl.jonallen.info/projects/pod2pdf
+Url:        https://perl.jonallen.info/projects/pod2pdf
 Source:     http://perl.jonallen.info/attachment/24/pod2pdf-%{version}.tar.gz
 Requires: perl(PDF::API2)
 BuildRequires: perl-devel
